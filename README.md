@@ -4,11 +4,6 @@ DEPRECATED, use Klaus
 
 Like GitWeb, but Node
 
-[![CircleCI](https://circleci.com/gh/zacanger/gwn.svg?style=svg)](https://circleci.com/gh/zacanger/gwn) [![Docker
-Pulls](https://img.shields.io/docker/pulls/zacanger/gwn.svg)](https://hub.docker.com/r/zacanger/gwn) [![Patreon](https://img.shields.io/badge/patreon-donate-yellow.svg)](https://www.patreon.com/zacanger) [![ko-fi](https://img.shields.io/badge/donate-KoFi-yellow.svg)](https://ko-fi.com/U7U2110VB)
-
-![screenshot](/screenshot.png?raw=true)
-
 --------
 
 ## Installation
@@ -27,9 +22,7 @@ gwn -r ~/dev -p 8000
 
 ## Docker
 
-`docker run -it -p 9999:9999 -v /path/to/repos:/repos zacanger/gwn`
-
-Check out the [repo](https://hub.docker.com/r/zacanger/gwn).
+`docker run -it -p 9999:9999 -v /path/to/repos:/repos gwn`
 
 ## Alternatives
 
